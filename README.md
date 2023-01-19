@@ -1,10 +1,30 @@
-# png-params
+---
+title: Test Space
+emoji: 🚀
+colorFrom: indigo
+colorTo: yellow
+sdk: gradio
+sdk_version: 3.16.2
+app_file: app.py
+pinned: false
+license: wtfpl
+---
+
+# PNG Parameters Viewer (png-params)
+[GitHub](https://github.com/andzhik/png-params)
 This is Gradio project for reading and displaying an image and its metadata from url.
 
-## Pre-requisites
-Python 3
+## Usage
+- Copy image link;
+- Paste it into the **url** field
+- Submit
+
+**Generation parameters** text can be directly used in AUTOMATIC1111 UI
 
 ## Running locally
+
+### Prerequisites
+Python 3
 
 ### Install requirements
 ``` bash

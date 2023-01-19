@@ -14,7 +14,7 @@ def display_image_from_url(url):
     image = Image.open(res)
     image.load()
 
-    return image, image.info
+    return image, image.info['parameters'], image.info
 
-server = gr.Interface(display_image_from_url, "text", ["image", "text"])
+server = gr.Interface(display_image_from_url, "text", ["image", gr.Textbox(label="Generation Parameters"), gr.Textbox(label="Metadata")])
 server.launch()
