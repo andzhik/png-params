@@ -15,8 +15,9 @@ license: wtfpl
 This is Gradio project for reading and displaying an image and its metadata from url.
 
 ## Usage
-- Copy image address;
+- Copy image address
 - Paste it into the **url** field
+- or Drag and Drop/Upload image
 - Submit
 
 **Generation parameters** text can be directly used in AUTOMATIC1111 UI

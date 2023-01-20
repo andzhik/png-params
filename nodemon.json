@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "execMap": {
+    "py": "/usr/bin/python3"
+  }
+}
