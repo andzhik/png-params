@@ -1,5 +1,5 @@
 ---
-title: Test Space
+title: PNG Info
 emoji: 🚀
 colorFrom: indigo
 colorTo: yellow
