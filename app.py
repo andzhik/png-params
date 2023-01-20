@@ -14,7 +14,11 @@ def display_image_from_url(url):
     image = Image.open(res)
     image.load()
 
-    return image, image.info['parameters'], image.info
+    parameters = "Parameters have been erased from this image"
+    if 'parameters' in image.info:
+        parameters = image.info['parameters']
+
+    return image, parameters, image.info
 
 server = gr.Interface(display_image_from_url, "text", ["image", gr.Textbox(label="Generation Parameters"), gr.Textbox(label="Metadata")])
 server.launch()
