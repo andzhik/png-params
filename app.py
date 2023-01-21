@@ -31,7 +31,7 @@ with blocks as png_info:
     with gr.Row():
         gr.Markdown(
     """
-    Report any issues on the (GitHub)[https://github.com/andzhik/png-params] page of this project
+    Report any issues on the [GitHub](https://github.com/andzhik/png-params) page of this project
     """)
     with gr.Row().style(equal_height=False):
         with gr.Column():
