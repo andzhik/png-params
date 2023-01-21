@@ -42,14 +42,16 @@ pip install -r requirements.txt
 ### Run
 
 ```bash
-python images.py
+python app.py
 ```
 
 Use [nodemon](https://www.npmjs.com/package/nodemon) for development.
 
 ```bash
-nodemon images.py
+nodemon app.py
 ```
+
+In some cases, if python is not found, you may need to adjust path to python (run `which python` to find it) in `nodemon.json`.
 
 ### Open UI
 
